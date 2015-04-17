@@ -42,7 +42,7 @@ $(document).ready(function()
 		reloadContent(true);
 	});
 
-    $(document).on('click', '#layered_form input[type=checkbox], #layered_form input[type=radio]', function() {
+    $(document).on('change', '#layered_form input[type=checkbox], #layered_form input[type=radio]', function() {
         reloadContent(true);
     });
 
